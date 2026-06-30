@@ -60,7 +60,10 @@ Once the containers are running, open `https://pchazalm.42.fr` in a browser (you
 
 Classic references used while building this project:
 
-- [Docker official documentation](https://docs.docker.com/)
+- [Usefull guide that explain everything](https://tuto.grademe.fr/inception/#docker)
+- [Sabartho guide](https://github.com/TFHD/Inception)
+
+Other reference that i didn't use but really helpfull
 - [Docker Compose reference](https://docs.docker.com/compose/compose-file/)
 - [Dockerfile best practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 - [NGINX `ssl_protocols` directive](https://nginx.org/en/docs/http/ngx_http_ssl_module.html)
@@ -69,14 +72,9 @@ Classic references used while building this project:
 
 ### How AI was used
 
-AI tools (mainly GitHub Copilot Chat) were used as a learning and reviewing assistant, not as a code generator. Concretely:
 
-- Reviewing and challenging design choices (named volumes vs bind mounts, `restart` policy, network mode, etc.).
-- Auditing the repository against the subject's mandatory requirements and producing a checklist of issues.
 - Explaining how `php-fpm`, `fastcgi_pass` and NGINX cooperate, and how `init_file` works in MariaDB.
 - Helping write this documentation (README, user doc, developer doc).
-
-Every piece of code committed to this repository has been read, understood and, when needed, rewritten manually so it can be explained and defended during the peer evaluation.
 
 ## Project description
 
